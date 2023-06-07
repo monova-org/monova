@@ -1,0 +1,13 @@
+{
+	"name": "root",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Chawn Lin",
+    "email": "chawn-lin@outlook.com"
+  },
+	"devDependencies": {
+		"lerna": "^6.6.2",
+		"pnpm": "^8.6.1"
+	}
+}
