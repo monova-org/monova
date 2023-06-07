@@ -4,13 +4,18 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-devDependencies:
-  lerna:
-    specifier: ^6.6.2
-    version: 6.6.2
-  pnpm:
-    specifier: ^8.6.1
-    version: 8.6.1
+importers:
+
+  .:
+    devDependencies:
+      lerna:
+        specifier: ^6.6.2
+        version: 6.6.2
+      pnpm:
+        specifier: ^8.6.1
+        version: 8.6.1
+
+  packages/test1: {}
 
 packages:
 
